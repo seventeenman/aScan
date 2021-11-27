@@ -15,7 +15,7 @@ Convenient asset sorting, all results are output after sorting !
 # View instructions
 ./aScan -h
 
-	-t string
+  -t string
     	Scanned IP address(192.168.1.1 || 192.168.1.1-255 || 192.168.1.1/24), 192.168.1.1/12 is not allowed! (default "127.0.0.1")
   -r int
     	The number of open coroutines for Port detection (default 600)
@@ -33,7 +33,7 @@ Convenient asset sorting, all results are output after sorting !
     	Scan the ip address in the file(-f ips.txt)
     	
  Notice:
- 			It is best not to adjust the number of coroutines, the default number balances stability and speed
+      It is best not to adjust the number of coroutines, the default number balances stability and speed
 ```
 
 ## Example
