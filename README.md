@@ -50,7 +50,7 @@ Convenient asset sorting, all results are output after sorting !
 ./aScan -t 192.168.1.1-10
 ```
 
-> Scan IP in a c class
+> Scan IP in c class
 
 ```
 ./aScan -t 192.168.1.1/24
