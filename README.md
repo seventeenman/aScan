@@ -100,7 +100,7 @@ Convenient asset sorting, all results are output after sorting !
 
 ## Example
 
-![image-1](https://raw.githubusercontent.com/seventeenman/aScan/main/img/image-1.png)
+![image-1](https://raw.githubusercontent.com/seventeenman/aScan/main/img/image-1.jpg)
 
 ![image-2](https://raw.githubusercontent.com/seventeenman/aScan/main/img/image-2.png)
 
