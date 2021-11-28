@@ -5,6 +5,7 @@ import (
 	"github.com/fatih/color"
 	"io/ioutil"
 	"net"
+	"os"
 	"os/exec"
 	"reflect"
 	"runtime"
@@ -75,6 +76,7 @@ func CmdPing(checkList chan string, resCheck chan string) {
 			}
 		} else {
 			color.Red("[-] Unsupported operating system ")
+			os.Exit(1)
 		}
 	}
 }
