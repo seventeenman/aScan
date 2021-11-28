@@ -104,6 +104,13 @@ Convenient asset sorting, all results are output after sorting !
 
 ![image-2](https://raw.githubusercontent.com/seventeenman/aScan/main/img/image-2.png)
 
+## Todo List
+
+- [ ] Get port banner
+- [ ] More feature-rich web detection
+- [ ] Code performance optimization
+- [ ] Possibility to obtain intranet host information
+
 ## Issues
 
 The scanner may have some unpredictable bugs in the web detection module written in the fasthttp library. If you encounter a bug, you can post the front-end source code of the target that caused the problem in the issue.
