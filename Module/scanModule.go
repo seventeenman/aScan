@@ -164,6 +164,7 @@ func AnalyzeTarget(address string, ipList []string) []string {
 			}
 		} else {
 			color.Red("[-] %s is not an IP Address or CIDR Network", address)
+			os.Exit(1)
 		}
 	} else {
 		ipList = append(ipList, address)
@@ -260,6 +261,7 @@ func ReadTarget(ipList []string, filename string) []string {
 	content, err := ioutil.ReadFile(filename)
 	if err != nil {
 		color.Red("[-] Read failed")
+		os.Exit(1)
 	}
 	for _, byteTarget := range bytes.Split(content, []byte("\n")) {
 		target := Bytes2String(byteTarget)
