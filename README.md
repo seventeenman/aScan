@@ -110,6 +110,7 @@ Convenient asset sorting, all results are output after sorting !
 - [ ] More feature-rich web detection
 - [ ] Code performance optimization
 - [ ] Possibility to obtain intranet host information
+- [ ] Code structure adjustment to facilitate adding functions
 
 ## Issues
 
